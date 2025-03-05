@@ -1,6 +1,7 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
@@ -17,17 +18,29 @@ namespace practise
 {
     class Books
     {
+        public  string Title { get; set; }
+        public string Author { get; set; }
+        public int ISBN { get; set; }
+
         public Books()
         {
-            Console.WriteLine("Books Default Constructor");
+            Title = "unknown";
+            Author = "unknown";
+            ISBN = 0;
         }
-        public Books(string Title,string Author)
+        public Books(string title,string author)
         {
-            Console.WriteLine($"Title::{Title}");
-            Console.WriteLine($"Author::{Author}");
+            Title = title;
+            Author = author;
+            ISBN = 0;
+            Console.WriteLine($"Title::{title}");
+            Console.WriteLine($"Author::{author}");
         }
-        public Books(string Title,string Author,int ISBN)
+        public Books(string title,string author,int isbn)
         {
+            Title = title;
+            Author = author;
+            ISBN = isbn;
             Console.WriteLine($"Title::{Title}");
             Console.WriteLine($"Author::{Author}");
             Console.WriteLine($"ISBN::{ISBN}");
