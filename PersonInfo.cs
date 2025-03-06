@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
@@ -25,7 +25,7 @@ namespace practise
             Name = name;
             Age = age;
         }
-       public void  GetDetails()
+       public virtual void  GetDetails()
         {
             Console.WriteLine($"person info::\nName::{Name}\nAge::{Age}");
         }
@@ -39,7 +39,7 @@ namespace practise
             Subject = subject;
         }
 
-        public void GetDetails()
+        public override void GetDetails()
         {
             Console.WriteLine($"Teacher info::\nName::{Name}\nAge::{Age}\nsubject::{Subject}");
         }
@@ -54,7 +54,7 @@ namespace practise
             ID = id;
             Standard = standard;
         }
-        public void GetDetails()
+        public override void GetDetails()
         {
             Console.WriteLine($"Student info::\nName::{Name}\nID::{ID}\nAge::{Age}\nStandard::{Standard}");
         }
