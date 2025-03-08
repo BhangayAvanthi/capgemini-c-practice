@@ -1,4 +1,3 @@
-﻿// See https://aka.ms/new-console-template for more information
 using practise;
 
 Console.WriteLine("Hello, World!");
@@ -68,3 +67,42 @@ Console.WriteLine("Hello, World!");
 //SecuritySystem securitySystem = new SecuritySystem();
 //securitySystem.AuthenticateUser("user", "password123");
 
+//Logical logical = new Logical();
+//Console.WriteLine(logical.IsPalindrome("avan"));
+////logical.LeastElement();
+//Console.WriteLine(logical.IsPrime());
+
+
+
+//to check the highest max values
+//Console.WriteLine(int.MaxValue);
+//Console.WriteLine(Int16.MaxValue);
+//Console.WriteLine(Int32.MaxValue);
+//Console.WriteLine(Int64.MaxValue);
+//Console.WriteLine(Int128.MaxValue);
+
+
+//BasicCodes basicCodes = new BasicCodes();
+//Console.WriteLine("reversed string::");
+//Console.WriteLine(basicCodes.ReverseString("stringg"));
+//Console.WriteLine("\nlarget element::");
+//Console.WriteLine(basicCodes.LargestElement([3, 1, 2, 4, 56, 2]));
+//Console.WriteLine("\nhashset example::");
+//basicCodes.HashSetExample();
+//Console.WriteLine("\nhashset to remove duplicates::");
+//basicCodes.RemoveDuplicate([1, 2, 2, 34, 1, 77, 98]);
+//Console.WriteLine("\ndictionary example::");
+//basicCodes.DictExample();
+//Console.WriteLine("\nfrequncy of elements in array using dictionary::");
+//basicCodes.Frequencies([15,12,87,87,24,12,90,3,1,4,3,3]);
+//Console.WriteLine("\npalindrome or not::");
+//Console.WriteLine(basicCodes.IsPalindrome("malayalam"));
+//Console.WriteLine("\nsum of array elements::");
+//Console.WriteLine(basicCodes.ArraySum([1,2,3,4]));
+//Console.WriteLine("\nmerge and sort arrays");
+//basicCodes.MergeSortArrays([1, 3, 2], [5, 12]);
+
+
+LeetCodee leetCodee = new LeetCodee();
+Console.WriteLine("\nprint unique elements::");
+leetCodee.RemoveDuplicates([1, 2, 2, 34, 1, 77, 98]);
